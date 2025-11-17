@@ -1,5 +1,12 @@
-nome = input("Me infome o seu nome: ")
+bonus_anual = 1000
 
-valor_salario = float(input("Me informe seu salário: "))
+nome_usuario = input("Me infome o seu nome: ")
 
-print(nome,valor_salario)
+salario_usuario = float(input("Me informe seu salário: "))
+
+bonus_usuario = float(input("Qual é o valor do bonus? "))
+
+
+calculo = bonus_usuario + (salario_usuario * bonus_usuario)
+
+print(f"{nome_usuario}, aqui está seu salario: {calculo}")

@@ -1,3 +1,4 @@
+# %%
 quantidade = 2
 preco = -23
 
@@ -6,3 +7,5 @@ if quantidade >= 0 and preco >= 0:
 
 else: 
     print("Valor negativo!")
+
+# %%
